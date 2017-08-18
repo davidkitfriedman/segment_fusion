@@ -1,0 +1,68 @@
+All runs with winradius=8
+First run is with epsilon=10 and second with epsilon=50.
+
+loading input image: /home/david/segment_fusion/images/car.ppm
+Brute elapsed time:   69
+Cell  elapsed time:   19
+Percent cell exact:      62.84      6837/10880  
+Percent cell within  5%: 94.71     10304/10880  
+Percent cell within 10%: 97.94     10656/10880  
+Percent cell within 15%: 98.76     10745/10880  
+Percent cell within 20%: 99.16     10789/10880  
+loading input image: /home/david/segment_fusion/images/car.ppm
+Brute elapsed time:   68
+Cell  elapsed time:    3
+Percent cell exact:       6.16       670/10880  
+Percent cell within  5%: 38.68      4208/10880  
+Percent cell within 10%: 67.24      7316/10880  
+Percent cell within 15%: 83.16      9048/10880  
+Percent cell within 20%: 91.05      9906/10880  
+loading input image: /home/david/segment_fusion/images/friends.ppm
+Brute elapsed time:  177
+Cell  elapsed time:   30
+Percent cell exact:      50.96      8480/16640  
+Percent cell within  5%: 93.17     15504/16640  
+Percent cell within 10%: 98.65     16415/16640  
+Percent cell within 15%: 99.55     16565/16640  
+Percent cell within 20%: 99.76     16600/16640  
+loading input image: /home/david/segment_fusion/images/friends.ppm
+Brute elapsed time:  168
+Cell  elapsed time:    4
+Percent cell exact:       5.48       912/16640  
+Percent cell within  5%: 29.68      4939/16640  
+Percent cell within 10%: 57.33      9540/16640  
+Percent cell within 15%: 77.32     12866/16640  
+Percent cell within 20%: 88.65     14752/16640  
+loading input image: /home/david/segment_fusion/images/husky.ppm
+Brute elapsed time:   35
+Cell  elapsed time:   11
+Percent cell exact:      49.75      3731/7500   
+Percent cell within  5%: 91.61      6871/7500   
+Percent cell within 10%: 98.39      7379/7500   
+Percent cell within 15%: 99.47      7460/7500                            
+Percent cell within 20%: 99.80      7485/7500                            
+loading input image: /home/david/segment_fusion/images/husky.ppm
+Brute elapsed time:   32
+Cell  elapsed time:    2
+Percent cell exact:       4.35       326/7500   
+Percent cell within  5%: 27.33      2050/7500   
+Percent cell within 10%: 53.83      4037/7500   
+Percent cell within 15%: 73.05      5479/7500   
+Percent cell within 20%: 85.29      6397/7500   
+loading input image: /home/david/segment_fusion/images/olympics2016.ppm
+Brute elapsed time:  180
+Cell  elapsed time:   36
+Percent cell exact:      47.06      7982/16960  
+Percent cell within  5%: 91.86     15580/16960  
+Percent cell within 10%: 98.47     16700/16960  
+Percent cell within 15%: 99.53     16881/16960  
+Percent cell within 20%: 99.72     16912/16960  
+loading input image: /home/david/segment_fusion/images/olympics2016.ppm
+Brute elapsed time:  183
+Cell  elapsed time:    5
+Percent cell exact:       4.39       745/16960  
+Percent cell within  5%: 25.51      4327/16960  
+Percent cell within 10%: 52.61      8923/16960  
+Percent cell within 15%: 72.99     12379/16960  
+Percent cell within 20%: 85.80     14551/16960  
+david@davidkitfriedman:~/segment_fusion/test> 

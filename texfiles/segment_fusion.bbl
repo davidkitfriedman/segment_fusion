@@ -1,0 +1,46 @@
+\begin{thebibliography}{1}
+
+\bibitem{cell}
+Sunil Arya, David~M Mount, Nathan Netanyahu, Ruth Silverman, and Angela~Y Wu.
+\newblock An optimal algorithm for approximate nearest neighbor searching in
+  fixed dimensions.
+\newblock In {\em Proc. 5th ACM-SIAM Sympos. Discrete Algorithms}, pages
+  573--582, 1994.
+
+\bibitem{fusion3}
+Yuri Boykov and Vladimir Kolmogorov.
+\newblock An experimental comparison of min-cut/max-flow algorithms for energy
+  minimization in vision.
+\newblock {\em IEEE transactions on pattern analysis and machine intelligence},
+  26(9):1124--1137, 2004.
+
+\bibitem{fusion1}
+Yuri Boykov, Olga Veksler, and Ramin Zabih.
+\newblock Fast approximate energy minimization via graph cuts.
+\newblock {\em IEEE Transactions on pattern analysis and machine intelligence},
+  23(11):1222--1239, 2001.
+
+\bibitem{prev}
+Jason~J Corso, Maneesh Dewan, and Gregory~D Hager.
+\newblock Image segmentation through energy minimization based subspace fusion.
+\newblock In {\em Pattern Recognition, 2004. ICPR 2004. Proceedings of the 17th
+  International Conference on}, volume~2, pages 120--123. IEEE, 2004.
+
+\bibitem{intensity}
+Pedro~F Felzenszwalb and Daniel~P Huttenlocher.
+\newblock Efficient graph-based image segmentation.
+\newblock {\em International journal of computer vision}, 59(2):167--181, 2004.
+
+\bibitem{gabor}
+David~J Field.
+\newblock Relations between the statistics of natural images and the response
+  properties of cortical cells.
+\newblock {\em JOSA A}, 4(12):2379--2394, 1987.
+
+\bibitem{fusion2}
+Vladimir Kolmogorov and Ramin Zabin.
+\newblock What energy functions can be minimized via graph cuts?
+\newblock {\em IEEE transactions on pattern analysis and machine intelligence},
+  26(2):147--159, 2004.
+
+\end{thebibliography}

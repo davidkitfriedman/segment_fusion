@@ -1,0 +1,53 @@
+david@davidkitfriedman:~/segment_fusion> python run_segment_all.py
+Running on car
+loading input image.
+segment intensity: 3 sec
+segment texture: compute fourier transforms: 0 sec
+segment texture: create graph: 3 sec
+segment texture: run graph algorithm: 5 sec
+segment texture: 5 sec
+compute quality: 1 sec
+fuse intensity and texture: 2 sec
+total elapsed time: 11 sec
+
+Running on friends
+loading input image.
+segment intensity: 5 sec
+segment texture: compute fourier transforms: 1 sec
+segment texture: create graph: 4 sec
+segment texture: run graph algorithm: 10 sec
+segment texture: 11 sec
+compute quality: 1 sec
+fuse intensity and texture: 5 sec
+total elapsed time: 22 sec
+
+Running on husky
+loading input image.
+segment intensity: 2 sec
+segment texture: compute fourier transforms: 1 sec
+segment texture: create graph: 1 sec
+segment texture: run graph algorithm: 2 sec
+segment texture: 3 sec
+compute quality: 1 sec
+fuse intensity and texture: 3 sec
+total elapsed time: 9 sec
+
+Running on olympics2016
+loading input image.
+segment intensity: 6 sec
+segment texture: compute fourier transforms: 0 sec
+segment texture: create graph: 4 sec
+segment texture: run graph algorithm: 10 sec
+segment texture: 10 sec
+compute quality: 7 sec
+fuse intensity and texture: 5 sec
+total elapsed time: 28 sec
+
+david@davidkitfriedman:~/segment_fusion> 
+
+
+
+
+
+
+

@@ -1,0 +1,53 @@
+david@davidkitfriedman:~/segment_fusion> python run_segment_
+run_segment_all.py           run_segment_friends.py       run_segment_olympics2016.py
+run_segment_car.py           run_segment_husky.py         
+david@davidkitfriedman:~/segment_fusion> python run_segment_
+run_segment_all.py           run_segment_friends.py       run_segment_olympics2016.py
+run_segment_car.py           run_segment_husky.py         
+david@davidkitfriedman:~/segment_fusion> python run_segment_all.py
+Running on car
+loading input image.
+segment intensity: 4 sec
+segment texture: compute fourier transforms: 0 sec
+segment texture: create graph: 20 sec
+segment texture: run graph algorithm: 22 sec
+segment texture: 22 sec
+compute quality: 1 sec
+fuse intensity and texture: 2 sec
+total elapsed time: 29 sec
+
+Running on friends
+loading input image.
+segment intensity: 5 sec
+segment texture: compute fourier transforms: 1 sec
+segment texture: create graph: 30 sec
+segment texture: run graph algorithm: 35 sec
+segment texture: 36 sec
+compute quality: 1 sec
+fuse intensity and texture: 6 sec
+total elapsed time: 48 sec
+
+Running on husky
+loading input image.
+segment intensity: 2 sec
+segment texture: compute fourier transforms: 0 sec
+segment texture: create graph: 11 sec
+segment texture: run graph algorithm: 12 sec
+segment texture: 13 sec
+compute quality: 0 sec
+fuse intensity and texture: 4 sec
+total elapsed time: 19 sec
+
+Running on olympics2016                                                  
+loading input image.                                                     
+segment intensity: 5 sec                                                          
+segment texture: compute fourier transforms: 0 sec                                
+segment texture: create graph: 34 sec                                             
+segment texture: run graph algorithm: 39 sec                                      
+segment texture: 39 sec                                                           
+compute quality: 7 sec                                                            
+fuse intensity and texture: 3 sec                                                 
+total elapsed time: 55 sec                                                                   
+                                                                                             
+david@davidkitfriedman:~/segment_fusion>                                                     
+                                                                                             

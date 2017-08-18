@@ -1,0 +1,185 @@
+README
+
+This is a student project that I did. It's a been about ten
+years since I was in school; however, I wanted to seek to
+publish it in some capacity, and so am posting it here on
+Github.
+
+The paper is called: 
+
+Improved Image Segmentation Through 
+Energy Minimization Based Subspace Fusion
+
+The intensity segmentation is from the following paper:
+
+Efficient Graph-Based Image Segmentation
+Pedro F. Felzenszwalb and Daniel P. Huttenlocher
+International Journal of Computer Vision, 59(2) September 2004.
+
+The code is available as of summer 2017 at the following URL:
+
+http://cs.brown.edu/~pff/segment/
+
+That's what I built upon for the most part. 
+
+For the GCoptimization part the current page for that is:
+
+http://www.csd.uwo.ca/faculty/olga/code.html
+
+As this goes back to 2007 the GCoptimization code used is rather old. 
+
+In both cases the code was released under GPLv2 but modifications can be
+redistributed under GPLv2 or a later version, so this project 
+called segment_fusion is released under GPLv3.
+
+For the GCoptimization code one needs to cite the following three papers,
+and the code should only be used for research purposes. The file 
+GCoptimization1.1/GC_README.txt has more information, and one can consult the
+above website as well. 
+
+[1] Efficient Approximate Energy Minimization via Graph Cuts Yuri Boykov, Olga
+Veksler, Ramin Zabih, IEEE transactions on PAMI, vol. 20, no. 12,
+p. 1222-1239, November 2001.
+
+[2]What Energy Functions can be Minimized via Graph Cuts? Vladimir Kolmogorov and
+Ramin Zabih. IEEE Transactions on Pattern Analysis and Machine Intelligence
+(PAMI), vol. 26, no. 2, February 2004, pp. 147-159.
+
+[3]An Experimental Comparison of Min-Cut/Max-Flow Algorithms for Energy
+Minimization in Vision. Yuri Boykov and Vladimir Kolmogorov. In IEEE
+Transactions on Pattern Analysis and Machine Intelligence (PAMI), vol. 26,
+no. 9, September 2004, pp. 1124-1137. 
+
+The abs_qual directory has the algorithm that I developed. For cellalg the
+algorithm was adapted and written from:
+
+Arya, Sunil, et al. "An optimal algorithm for approximate nearest neighbor
+searching in fixed dimensions." Proc. 5th ACM-SIAM Sympos. Discrete
+Algorithms. 1994.
+
+Some specs for the machine used for testing in 2017:
+
+Model: Dell Inspiron 1545 
+Processor: Dual-core T4300 @ 2.10 GHz 
+Total memory: 4 GiB
+OS: openSUSE Leap 42.1 (x86_64)
+uname -s -r -p -o: Linux 4.1.27-27-default x86_64 GNU/Linux
+
+One tip for analyzing and comparing the segmentations is to use GIMP and
+Select By Color. One can then use the Histogram window to get pixel counts for
+different classifications. For this it is best to use the Toolbox Options for
+Select by Color and to put the Threshold at 0.0 so that only the count for
+that exact color is given. 
+
+https://docs.gimp.org/en/gimp-tool-by-color-select.html
+
+Going from 2007 to 2017 GCoptimization1.1/Graph.h and
+GCoptimization1.1/Graph.cpp were modified because the architecture for the
+testing machine changed from 32 bits to 64 ("int" was changed to "long"). 
+Original files for the 32 bit case are called 
+GCoptimization1.1/Graph_32.h and GCoptimization1.1/graph_32.cpp
+
+The program can be compiled with "make segment_fusion". The file run_segment.py
+is a python script which sets the various parameters and runs the program. 
+These parameters are:
+
+General
+	input -- the file to segment (PPM format)
+	output_intensity -- the intensity segmentation (PPM format)
+	output_texture   -- the texture segmentation   (PPM format)
+	output_quality   -- the computed quality       (PPM format)
+	output_fused     -- the fused segmentation     (PPM format)
+
+Intensity Segmentation
+	intensity_sigma   -- controls the amount of smoothing done prior to running
+                             the intensity algorithm (using a Gaussian Filter,
+			     see filter.h) 
+
+	intensity_thresh  -- controls how aggressively possibly disparate groups are 
+                             joined. A larger value means more joins and fewer segments
+                             and a lower value means less joins, and more segments. 
+
+	intensity_minsize -- after the algorithm is run segments smaller than the minsize
+			     are joined to eliminate segments smaller than the minimum 
+			     size.
+
+Texture Segmentation 
+	texture_winlength -- the length of each texture window (each window
+			     being texture_winlength*texture_winlength total 
+			     pixels, see segment-image.h)
+
+	
+	texture_cellalg_or_kmeans -- whether to use the cell algorithm or the kmeans 
+				     algorithm. Valid strings for this parameter are 
+				     "cellalg" and "kmeans". 
+
+
+	texture_cellalg_epsilon --  the epsilon parameter of the cell algorithm which 
+                                    finds the nearest neighbors in order to build the 
+                                    graph. It controls how long versus how accurate 
+                                    the nearest neighbor computation is done. A lower 
+                                    value means a slower more accurate computation while
+                                    a higher value indicates a faster less accurate 
+                                    computation. A value of 0 means use brute force 
+                                    rather than the cell algorithm to find the nearest
+                                    neighbors. 
+
+	texture_cellalg_thresh_pct_or_abs -- when running the graph segmentation  
+                                             whether the threshold value is specified as 
+                                             a percentage rank of the edge weights or 
+					     as an absolute value. Valid strings for 
+                                             this parameter are "pct" and "abs". 
+
+	texture_cellalg_thresh_val       -- when running the graph segmentation this 
+                                            parameter controls how aggressively possibly
+                                            disparate groups are joined. If "pct" is 
+                                            passed to texture_cellalg_thresh_pct_or_abs
+                                            pass in a value between 0 and 1 for this 
+                                            parameter. 
+
+        texture_kmeans_numclusters       -- specifies the number of clusters to use 
+                                            if running the kmeans algorithm. 
+
+Quality Computation 
+	quality_abs_or_squ               -- whether to compute the quality using the abs
+                                            algorithm or the squared algorithm. Valid
+                                            strings for this parameter are "abs" and 
+                                            "squ". 
+         
+        quality_winradius                -- the window radius to use for the quality 
+                                            computation (each window being 
+					    (2*quality_winradius+1)*(2*quality_winraidus+1)
+                                            number of pixels, see abs_qual/abs_qual.cpp).
+	
+	
+Other files and directories include:
+
+GCoptimization1.1/  -- this directory includes the code for the graph cut optimization 
+                       algorithm used in the fusion process. The unmodified 
+                       code by Olga Veksler can be found in the directory
+                       called "original". Minor modifications were made in the layout of the files.
+
+abs_qual/           -- this directory includes the code for the implementation of the 
+                       absolute value quality computation. 
+
+cellalg/            -- this directory includes the code for the implementation of the 
+                       cell algorithm used to compute the k closest neighbors to a point
+                       within some space. 
+
+images/		    -- the original images and the segmentations. The file
+		    olympics2016-size2048x1363.ppm is large enough that the algorithm would take a
+		    fairly long period of time to run. 
+
+test/               -- this directory includes various test programs, and other 
+                       miscellaneous.
+
+original/           -- this directory includes the original GCoptimization 
+                       code from Olga Veksler and the intensity segmentation code from 
+                       Pedro Felzenszwalb. The file segment.tgz is what I had
+                       back then. Later Felzenszwalb released another
+                       version which is segment.zip. The only changes I saw between
+                       segment.tgz and segment.zip were a minor bug fix and
+                       the addition of license information. 
+
+texfiles/	    -- this directory contains LaTeX files,
+		    image files, etc. for producing the PDF file for the paper. 
