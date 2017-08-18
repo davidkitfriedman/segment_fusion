@@ -118,7 +118,7 @@ additional possible subspaces.
 In the following sections we describe in more detail the
 intensity segmentation algorithm \cite{intensity}, the texture
 segmentation algorithm, the quality computation, and the
-fusion algorithm \cite{fusion1}. An implementation is available at \url{https://github.com/davidkitfriedman/segment_fusion/}. 
+fusion algorithm \cite{fusion1}. An implementation is available at \url{https://github.com/davidkitfriedman/segment_fusion}. 
 
 \subsection{Intensity Segmentation}
 
@@ -226,7 +226,24 @@ image and \texttt{olympics2016.ppm} there is more consolidation of
 classifications (larger groups get larger and smaller groups get
 smaller). This test and the output generated can be found in the source. 
 
+
+\begin{figure}[!t]
+\centering
+\includegraphics[width=3in]{cell}
+\caption{Pseudocode for the cell algorithm}
+\label{fig:cell}
+\end{figure}
+
+
 \subsection{Quality Computation}
+
+ 
+\begin{figure}[!t]
+\centering
+\includegraphics[width=3.15in]{quality}
+\caption{Pseudocode for the quality computation}
+\label{fig:quality}
+\end{figure}
 
 To compute the quality we follow the same approach as in \cite{prev},
 and use the standard deviation as a measure of texture. That is, given
@@ -276,15 +293,6 @@ decreasing is similar. It is also necessary in the implementation to
 handle points close to the edge.
 
 
-\begin{figure}[!t]
-\centering
-\includegraphics[width=3in]{cell}
-\caption{Pseudocode for the cell algorithm}
-\label{fig:cell}
-\end{figure}
-
-
-
 The first step is to find the transition points. For each transition
 point that is found we increase the \texttt{below\_sum} by the
 difference between the \texttt{new\_mean} and the current point. We
@@ -314,15 +322,6 @@ the state at the top of the column in order to transition from
 one column to the next. It is only necessary then to keep
 track of two states: the state for the previous pixel that was
 just processed, and the state for the pixel at the top of the column.
-
-
-\begin{figure}[!t]
-\centering
-\includegraphics[width=3.15in]{quality}
-\caption{Pseudocode for the quality computation}
-\label{fig:quality}
-\end{figure}
-
 
 Experimental results indicate a performance improvement that
 increases with the size of the window radius. It is not known 
