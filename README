@@ -10,6 +10,8 @@ The paper is called:
 Improved Image Segmentation Through 
 Energy Minimization Based Subspace Fusion
 
+and can be found in the source at texfiles/segment_fusion.pdf. 
+
 The intensity segmentation is from the following paper:
 
 Efficient Graph-Based Image Segmentation
