@@ -35,9 +35,10 @@ speech recognition, etc.; however, it could also crop up outside of data
 clustering. 
 
 One way to answer would be to say that it can be easier to analyze with more
-context. For a more specific problem there could be a variety of different
+context, and so one can work on crossing that bridge if it were to occur. 
+For a more specific problem there could be a variety of different
 techniques that can be applied, and one can work empirically, but there is no
-automatic best choice. This point is echoed in some of these
+automatic best choice. This point is mentioned in some of these
 stat.stackexchange.com posts:
 
 [Choosing a clustering
@@ -64,6 +65,11 @@ think that from a Turing machine point of view L_{p-1} can be computed with
 less cost than L_p though on an actual computer the number of cycles may be
 the same. 
 
+It might be the case that the distance function isn't the bottleneck and one might keep in mind what Knuth spoke about in terms of the [evils of premature optimization](http://wiki.c2.com/?PrematureOptimization).
+
+In the text mentioned above by Aggarwal it states that, "Among the
+methods discussed in this section, carefully chosen L_p-norms and match-based techniques are the fastest methods for large-scale applications."
+
 One way or another the distance function might not be the bottleneck and so
 one could think about how [premature optimization may not make
 sense](http://wiki.c2.com/?PrematureOptimization).
@@ -81,5 +87,4 @@ read the research papers of the thesis in detail.
 
 Anyway, I'd be curious what people might say in terms of considerations for
 students and practitioners when picking a distance function within an
-algorithm or overall scheme. Within different fields a variety of different 
-techniques and considerations may have accreted.
+algorithm or overall scheme. For different fields there can be different techniques, and to a certain extent one may need to just work empirically and experimentally. 
