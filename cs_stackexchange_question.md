@@ -55,18 +55,29 @@ there could be general theorems like that which would apply to distance
 function selection. 
 
 A basic observation would be that
-[$L_1$](https://en.wikipedia.org/wiki/Taxicab_geometry) can be computed with
-less cost than [$L_2$](https://en.wikipedia.org/wiki/Euclidean_distance). Also
+[L_1](https://en.wikipedia.org/wiki/Taxicab_geometry) can be computed with
+less cost than [L_2](https://en.wikipedia.org/wiki/Euclidean_distance). Also
 if one is just comparing
-[$L_p$](https://en.wikipedia.org/wiki/Minkowski_distance) distances the
+[L_p](https://en.wikipedia.org/wiki/Minkowski_distance) distances the
 rooting step could be omitted as that doesn't change the comparisons. I would
-think that from a Turing machine point of view $L_{p-1}$ can be computed with
-less cost than $L_p$ though on an actual computer the number of cycles may be
+think that from a Turing machine point of view L_{p-1} can be computed with
+less cost than L_p though on an actual computer the number of cycles may be
 the same. 
 
 One way or another the distance function might not be the bottleneck and so
 one could think about how [premature optimization may not make
 sense](http://wiki.c2.com/?PrematureOptimization).
+
+I could mention that I also took a brief look at [this Ph.D. thesis](http://ofirpele.droppages.com/ofirpele_phd_thesis.pdf) by [Ofir Pele](http://ofirpele.droppages.com/)
+on distance functions, and so at the beginning it says:
+
+>Our proposed methods have been successfully used both by com-
+puter vision researchers and by researchers in other fields. The success of
+the methods in other fields is probably because the noise characteristics in those
+fields are similar to image noise characteristics.
+
+which suggested to me that there could be some overlap in different cases; however, I haven't
+read the research papers of the thesis in detail. 
 
 Anyway, I'd be curious what people might say in terms of considerations for
 students and practitioners when picking a distance function within an
