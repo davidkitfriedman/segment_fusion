@@ -71,8 +71,8 @@ sense](http://wiki.c2.com/?PrematureOptimization).
 I could mention that I also took a brief look at [this Ph.D. thesis](http://ofirpele.droppages.com/ofirpele_phd_thesis.pdf) by [Ofir Pele](http://ofirpele.droppages.com/)
 on distance functions, and so at the beginning it says:
 
->Our proposed methods have been successfully used both by com-
-puter vision researchers and by researchers in other fields. The success of
+>Our proposed methods have been successfully used both by computer 
+vision researchers and by researchers in other fields. The success of
 the methods in other fields is probably because the noise characteristics in those
 fields are similar to image noise characteristics.
 
