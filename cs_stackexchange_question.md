@@ -74,3 +74,5 @@ I was thinking of waiting a week or two before awarding an answer; however, if a
 There also might be a response before I post mine, and so if that one is good and I haven't finished mine I might not post mine at all. 
 
 Hope this meets the site guidelines, but if not let me know. 
+
+(there was an [earlier version of this question](https://github.com/davidkitfriedman/segment_fusion/blob/master/cs_stackexchange_question_earlier_version.md))
