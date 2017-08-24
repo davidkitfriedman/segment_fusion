@@ -41,6 +41,8 @@ paid to the type of data being clustered and the scientific question at hand.
 These considerations should determine what type of dissimilarity measure
 is used for hierarchical clustering
 
+Section 10.3.3 Practical Issues in Clustering also talks about some related issues. 
+
 On the other hand I took a brief look at [this Ph.D. thesis](http://ofirpele.droppages.com/ofirpele_phd_thesis.pdf) by [Ofir Pele](http://ofirpele.droppages.com/)
 on distance functions, and so at the beginning it says:
 
@@ -57,11 +59,11 @@ Anyway, the question is: what are similarities and differences in how distance f
 
 I thought to myself this may be a bit of an unusual question. After all people don't generally study looping in Java, Python, Lisp and Prolog and then go on to study variable declaration in five other programming languages. People more often study one particular programming language as a whole not a certain construct in multiple ones. But on the other hand within programming languages as an academic discipline at universities people might certainly talk about similarities and dissimilarities. Those very similarities and differences could be seen in light of differences as to whether the code is (usually) interpreted or compiled, or whether it tends to favor an imperative style or a recursive one. One might also seek to see how various characteristics developed within the evolution of programming languages throughout history and how different programming languages built on earlier ones. Certain design decisions could very well derive from certain goals: ease of learning, readability, speed, verifiability. 
 
-Similarly in human languages people don't usually study a set of words or phrases in multiple human langauges but usually study one particular human language as a whole. Yet linguists might certainly study similarities and differences in particular words or phrases across languages as that can be indicative of how various human languages evolved and could also be indicative of various aspects of culture. I could also mention that browsing through [Encyclopedia of Distance](https://catalog.lib.ncsu.edu/record/NCSU3718838 ) I read about how linguists have sought to create ways to measure distances between languages. 
+Similarly in human languages people don't usually study a set of words or phrases in multiple human languages but usually study one particular human language as a whole. Yet linguists might certainly study similarities and differences in particular words or phrases across languages as that can be indicative of how various human languages evolved and could also be indicative of various aspects of culture. I could also mention that browsing through Encyclopedia of Distances I read about how linguists have sought to create ways to measure distances between languages. 
 
-Also, as a pratical application of such a cross-sectional approach within human languages, one might think of the airline and travel industry where employees learn how to say particular words and phrases in multiple languages so that it is possible to communicate with the passengers. 
+Also, as a practical application of such a cross-sectional approach within human languages, one might think of the airline and travel industry where employees learn how to say particular words and phrases in multiple languages so that it is possible to communicate with the passengers. 
 
-So I think such comparisons could be interesting. 
+So anyway I think such comparisons could be interesting. 
 
 I could mention that I don't think it's necessary to have a huge number of examples. I think a few would be fine with some brief explanation. I think perhaps more interesting than a lot of breadth would be how constraints, goals, or the problem domain lead to different approaches. I'm not an expert at all in any of those fields, so I may not be familiar with some of the terms. For people who find this page later on and are trying to find more details there can be a few resources listed such as books, websites, or search strategies. 
 
