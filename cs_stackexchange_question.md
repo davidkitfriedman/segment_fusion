@@ -65,7 +65,7 @@ So I think such comparisons could be interesting.
 
 I could mention that I don't think it's necessary to have a huge number of examples. I think a few would be fine with some brief explanation. I think perhaps more interesting than a lot of breadth would be how constraints, goals, or the problem domain lead to different approaches. I'm not an expert at all in any of those fields, so I may not be familiar with some of the terms. For people who find this page later on and are trying to find more details there can be a few resources listed such as books, websites, or search strategies. 
 
-I've thought about how I might answer this question based on my independent study and what I looked into, so I could seek to work on my response tonight. As long as the question meets the site guidelines perhaps there could be then at least one response. Other responses though might be more comprehensive or more incisive and trenchant. So a better response would be more deserving of the credit from the asker and also reputation points. 
+I've thought about how I might answer this question based on my independent study and what I looked into, so I could seek to work on my response tonight and probably tomorrow. As long as the question meets the site guidelines perhaps there could be then at least one response. Other responses though might be more comprehensive or more incisive and trenchant. So a better response would be more deserving of the credit from the asker and also reputation points. 
 
 I was thinking of waiting a week or two before awarding an answer; however, if a response is made beforehand which I think is good I could just decide to award it to that one. 
 
