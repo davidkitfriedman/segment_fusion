@@ -51,7 +51,7 @@ fields are similar to image noise characteristics.
 
 which suggested to me that there could be some overlap in different cases; however, I haven't read those papers in detail. 
 
-Anyway, the question is what are similarities and differences in how distance functions are used among disparate fields, and for what reasons do those similarities and differences arise. 
+Anyway, the question is: what are similarities and differences in how distance functions are used among disparate fields, and for what reasons do those similarities and differences arise. 
 
 ## Few Thoughts on this Question ##
 
