@@ -43,7 +43,13 @@ And so I thought of a mathematical question on my own while going through the te
 
 In terms of Knuth's *Art of Computer Programming* I went through that a bit and reviewed a section that was about minimizing the number of logic gates to achieve some particular truth table. I believe it was functions of the form where the output is true when k of the boolean variables are true. And so I think there was a reference to a kind of distance in that part.
 
-I thought it was interesting in the Preface to read a comment from Knuth on the patenting of algorithms. He discouraged people from doing so.
+I thought it was interesting in the Preface to read a comment from Knuth on the patenting of algorithms. He discouraged people from doing so. When reading the [legal section of the VideoLan.org page](https://www.videolan.org/legal.html) I saw it says that software patents are not recognized in France nor recognized within European conventions; however, looking at it more closely it seems that there are some various European software patents. These are some of the sources I visited:
+
+* [Wikipedia page on Software patents under the European Patent Convention](https://en.wikipedia.org/wiki/Software_patents_under_the_European_Patent_Convention)
+
+* [Free Software Foundation: Saving Europe from Software Patents](https://www.gnu.org/philosophy/savingeurope.en.html)
+
+* [Foundation for a Free Information Infrastructure: Frequently Asked Questions about software patents](https://www.ffii.org/Frequently%20Asked%20Questions%20about%20software%20patents) - It says, "About 30,000 European software patents have been granted without a sufficient legal base." And so I also read what it says about trivial patents. 
 
 Another comment is that I was rather surprised at how many books in the mathematical field of analysis can be downloaded at no cost and without a university affiliation. I found a list at the [Online Books Page](http://onlinebooks.library.upenn.edu/)
 
