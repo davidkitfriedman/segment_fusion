@@ -49,6 +49,8 @@ I thought it was interesting in the Preface to read a comment from Knuth on the 
 
 * [Free Software Foundation: Saving Europe from Software Patents](https://www.gnu.org/philosophy/savingeurope.en.html)
 
+* [Software patent debate](https://en.wikipedia.org/wiki/Software_patent_debate)
+
 * [Foundation for a Free Information Infrastructure: Frequently Asked Questions about software patents](https://www.ffii.org/Frequently%20Asked%20Questions%20about%20software%20patents) - It says, "About 30,000 European software patents have been granted without a sufficient legal base." And so I also read what it says about trivial patents. 
 
 Another comment is that I was rather surprised at how many books in the mathematical field of analysis can be downloaded at no cost and without a university affiliation. I found a list at the [Online Books Page](http://onlinebooks.library.upenn.edu/)
