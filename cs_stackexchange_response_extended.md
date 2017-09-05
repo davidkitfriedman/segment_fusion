@@ -149,7 +149,7 @@ Though capitalism does have this property of replication in the course of compet
 
 Having done some investment research I get the sense that various companies with the highest market capitalization are those that essentially deal in intellectual work; among them companies in IT, finance, and pharmaceuticals. In the case of IT, pharmaceuticals, and to a certain extent finance the businesses rely on government legal protections for the fruits of intellectual labor. By intellectual labor I would include marketing and branding which could be seen as creative endeavor that can be tested, analyzed, and measured with scientific and technical means. Google is seen as the maker of Chromebooks but I imagine generally speaking the actual manufacturing of consumer electronics is not as profitable as other kinds of business, and in the case of Chromebooks is handled by other companies. Pharmaceutical companies do need to manufacture drugs; however, that may be a small part of the cost wherein research and development in addition to advertising can be more. Finance companies may not have intellectual property in the form of something like software, but they have brands that they would seek to protect and there are laws to support that. For finance companies the intellectual work can consist among other things of modeling and analysis for the purpose of loans, investment, etc. 
 
-In what ways and to what extent is the business world different from the days of Cornelius Vanderbilt, Andrew Carnegie, and John D. Rockefeller? These people created businesses based on railroads, steel, and oil.
+In what ways and to what extent is the business world different from the days of Cornelius Vanderbilt, Andrew Carnegie, and John D. Rockefeller? These people created businesses based on railroads, steel, and oil. (I found it interesting to read the [Autobiography of Andrew Carnegie](http://www.gutenberg.org/ebooks/17976) a number of years ago). 
 
 In both the industrial age, and the information age successful businesses have carried out organization, planning, and analysis; however, I wonder if today intellectual property and marketing play more significant roles at least for the biggest businesses today as measured by market cap. 
 
@@ -224,5 +224,6 @@ If a mathematical concept doesn't seem useful for an application then one doesn'
 I also wrote a summary of my independent study including listings of some of the various sources I went through:
 
 [Summary of Independent Study](https://github.com/davidkitfriedman/segment_fusion/blob/master/summary_of_independent_study.md)
+
 
 This extended response is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
