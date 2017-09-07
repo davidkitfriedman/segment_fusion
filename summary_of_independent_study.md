@@ -1,5 +1,7 @@
 In this file I talk about some of the things I did in my independent study. 
 
+(Note: I have some math included in the text (enclosed in `$`'s) and so this doesn't show up properly in GitHub; however, one could use StackExchange - Ask a Question or also [StackEdit](https://stackedit.io) to view it)
+
 I wrote down various books that occurred to mind from my days as a student that I thought might possibly cover distance functions or mention them. 
 
 Here are some of the books that I wrote down:
