@@ -113,7 +113,11 @@ Texture Segmentation
 	
 	texture_cellalg_or_kmeans -- whether to use the cell algorithm or the kmeans 
 				     algorithm. Valid strings for this parameter are 
-				     "cellalg" and "kmeans". 
+				     "cellalg" and "kmeans". If kmeans is used the algorithm may 
+				     not converge as the distance function used isn't the regular 
+				     Euclidean distance (but actually the Manhattan distance). One can 
+				     stop the program by doing Ctrl-C. See:
+				     https://en.wikipedia.org/wiki/K-means_clustering#Standard_algorithm
 
 
 	texture_cellalg_epsilon --  the epsilon parameter of the cell algorithm which 
