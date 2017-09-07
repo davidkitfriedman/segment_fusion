@@ -65,7 +65,7 @@ The same is true of combinatorial statements. The number of possible results whe
 
 On the other hand, a high school student studying calculus, could be able to do the integral $3x^2 + x^4$ as well as the integral $3x^2 + x\sin{x}$. Students who are able to do both would realize that more tools are being used and more steps are required in the latter than in the former. 
 
-Young children who are studying arithmetic would know that is takes longer and requires more steps to multiply 4-digit positive integers  than it does to multiply 2-digit positive integers. 
+Young children who are studying arithmetic would know that is takes longer and requires more steps to multiply four digit positive integers than it does to multiply two digit positive integers. 
 
 Ascertaining the difficulty then of a problem could be seen as a skill in and of itself aside from the actual computation, answer and result. 
 
@@ -93,7 +93,8 @@ A toddler that doesn't know the meaning of letters of digits wouldn't know that 
 
 Simple mathematical statements may have simple proofs or nothing of the kind may appear to exist. 
 
-So I went through *Art of Computer Programming* a bit and reviewed a section that was about minimizing the number of logic gates to achieve some particular truth table. I believe it was functions of the form where the output is true when k of the boolean variables are true. And so I think there was a reference to a kind of distance in that part.
+So I went through *Art of Computer Programming* a bit and reviewed a section that was about minimizing the number of logic gates to achieve some particular truth table. I believe it was functions of the form where the output is true when k of the boolean variables are true. And so I think there was a reference to a kind of distance
+ in that part.
 
 I thought it was interesting in the Preface to read a comment from Knuth on the patenting of algorithms. He discouraged people from doing so. When reading the [legal section of the VideoLan.org page](https://www.videolan.org/legal.html) I saw it says that software patents are not recognized in France nor recognized within European conventions; however, looking at it more closely it seems that there are some various European software patents. These are some of the sources I visited:
 
