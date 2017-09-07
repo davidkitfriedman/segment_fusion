@@ -37,11 +37,63 @@ People might wonder about that. An argument against giving a rating is that in r
 
 Another argument though against giving a rating is that such a policy helps students to be independent in assessing problems, relationships and concepts on their own. Teachers might seek to challenge students in that way. 
 
-I think *Taxicab Geometry* can encourage people to experiment on their own. 
+*Taxicab Geometry* can encourage people to experiment on their own. 
 
 And so I thought of a mathematical question on my own while going through the text in the course of working on the problems.
 
-In terms of Knuth's *Art of Computer Programming* I went through that a bit and reviewed a section that was about minimizing the number of logic gates to achieve some particular truth table. I believe it was functions of the form where the output is true when k of the boolean variables are true. And so I think there was a reference to a kind of distance in that part.
+Within mathematics it's possible to write simple statements such as:
+
+1. There exists no positive integers $a$, $b$, and $c$, such that $a^4 + b^4 = c^4$.
+
+1. If $n+1$ distinct integers are selected between $1$ and $2n$ inclusive then there must exist two integers that are relatively prime. 
+
+1. Any even integer greater than or equal to $4$ can be written as the sum of two primes. 
+
+1. There exists no positive integers $a$, $b$, and $c$, such that $a^3 + b^3 = c^3$. 
+
+1. There exists no positive integers $a$, $b$, and $c$, such that $a^n + b^n = c^n$.
+
+Many high school students studying math would be able to understand what these statements say. 
+
+The difficulty of understanding each statement is essentially the same. Yet, subject to human inquiry, the amount of energy required to prove them is vastly different.
+
+$1$, $4$, and $5$ are talked about in the Wikipedia article on [Fermat's Last Theorem](https://en.wikipedia.org/wiki/Fermat%27s_Last_Theorem#Proofs_for_specific_exponents). $2$ is a problem that I saw in a book about [Paul Erdős](https://en.wikipedia.org/wiki/Paul_Erd%C5%91s) called *My Brain is Open*, and $3$ is the unproven [Goldbach's Conjecture](https://en.wikipedia.org/wiki/Goldbach%27s_conjecture). 
+
+The simplicity of a mathematical statement then does not necessarily say anything about the difficulty of its proof. 
+
+The same is true of combinatorial statements. The number of possible results when a coin is flipped 100 times is simpler than the number of possible successions of wins and losses in a 7 game series. 
+
+On the other hand, a high school student studying calculus, could be able to do the integral $3x^2 + x^4$ as well as the integral $3x^2 + x\sin{x}$. Students who are able to do both would realize that more tools are being used and more steps are required in the latter than in the former. 
+
+Young children who are studying arithmetic would know that is takes longer and requires more steps to multiply 4-digit positive integers  than it does to multiply 2-digit positive integers. 
+
+Ascertaining the difficulty then of a problem could be seen as a skill in and of itself aside from the actual computation, answer and result. 
+
+In *The Man Who Lived Only Numbers* by Paul Hoffman an incident is related in which a mathematician by the name of [Michael Jacobson](https://en.wikipedia.org/wiki/Michael_Scott_Jacobson) asked Paul Erdős about a particular problem and Erdős said he should find something else to work on; that it was too difficult. In the book Johnson speaks about how Erdős's advice was altogether right insofar as years later the problem had still not been solved. 
+
+Although [Gauss](https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss) was encouraged by his friend astronomer Heinrich Olbers to pursue Fermat's Last Theorem wherein a prize was offered by the French Academy of Sciences he declined to do so writing:
+
+>I confess that Fermat's Theorem as an isolated proposition has very little interest for me, because I could easily lay down a multitude of such propositions, which one could neither prove nor dispose of.
+
+([As quoted in Wikiquote from *The World of Mathematics* (1956) Edited by J. R. Newman](https://en.wikiquote.org/wiki/Carl_Friedrich_Gauss))
+
+See also: 
+
+[NOVA - Math's Hidden Woman](http://www.pbs.org/wgbh/nova/physics/sophie-germain.html)
+
+It does appear though that Gauss pursued Fermat's Last Theorem as described by Leo Corry in the below listed reference: 
+
+[On the History of Fermat’s Last Theorem: A Down-to-Earth Approach by Leo Corry - Tel Aviv University - DRAFT NOV. 2007 - NOT FOR QUOTATION](http://www.tau.ac.il/~corry/publications/articles/pdf/Fermat-History.pdf)
+
+(page 13, section 4. FLT between 1800 and 1855 – still in the margin,"Gauss indeed gave some thought to the problem:")
+
+So those two examples could be seen as cases where a mathematician either instinctively, or perhaps after a period of time, intuitively, gauged the difficulty of a problem. 
+
+A toddler that doesn't know the meaning of letters of digits wouldn't know that it is more complicated to multiply together four digit numbers than two digit numbers, and a young child doing multiplication does not know that integrating $3x^2 + x\sin{x}$  requires more knowledge of calculus than integrating $3x^2 + x^4$. Over time however one can progress in the accumulation of knowledge so as to be able to know such things. 
+
+Simple mathematical statements may have simple proofs or nothing of the kind may appear to exist. 
+
+So I went through *Art of Computer Programming* a bit and reviewed a section that was about minimizing the number of logic gates to achieve some particular truth table. I believe it was functions of the form where the output is true when k of the boolean variables are true. And so I think there was a reference to a kind of distance in that part.
 
 I thought it was interesting in the Preface to read a comment from Knuth on the patenting of algorithms. He discouraged people from doing so. When reading the [legal section of the VideoLan.org page](https://www.videolan.org/legal.html) I saw it says that software patents are not recognized in France nor recognized within European conventions; however, looking at it more closely it seems that there are some various European software patents. These are some of the sources I visited:
 
