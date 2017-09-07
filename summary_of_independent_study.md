@@ -150,9 +150,9 @@ I was surprised that at N.C. State at the D. H. Hill Library I could use the com
 * *Encyclopedia of Distances* by Michel Marie Deza, Elena Deza
 * *An Introduction to Statistical Learning with Applications in R* by Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani 
 
-It seems that the ones I could download were those published by Springer-Verlag. They also seemed to be available at fairly low cost (say $30 or so) via Google Books. 
+It seems that the ones I could download were those published by Springer-Verlag. They also seemed to be available at fairly low cost (say \$30 or so) via Google Books. 
 
-One can join Friends of NC State Library for a fee of I believe about $150 and one can join friends of Carlyle Campbell Library for a fee of $25. Discounts are available at Meredith College for students at another university. 
+One can join Friends of NC State Library for a fee of I believe about \$150 (\$175 as of October 2017) and one can join friends of Carlyle Campbell Library for a fee of \$25. Discounts are available at Meredith College for students at another university. 
 
 When my parents visited they treated me to membership in the Friends of Carlyle Cambell Library in the course of the project to scan *The Eagle and the Shield* (a book about the history of the Great Seal of the United States published in the mid 1970's which is in the public domain but unscanned); however, I didn't join Friends of NC State Library as I didn't think it was necessary. 
 
