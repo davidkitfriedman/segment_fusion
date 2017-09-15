@@ -121,6 +121,10 @@ Is that unfair to Google?
 
 In [2009 Sergey Brin wrote an editorial in the *New York Times* about Google Books](http://www.nytimes.com/2009/10/09/opinion/09brin.html) speaking about among other things the possibility that books might be lost because of disasters such as fires or floods, and also that there is significant information available in books that can be helpful to people. 
 
+Google may have felt that authors and publishers wouldn't object to their scanning because they were creating another way for them to gain sales; that it was essentially win-win. 
+
+Also, how is the automated scanning, indexing and searching of copyright print books any different from the automated crawling, indexing and searching of copyrighted web sites? Logically speaking should the medium really make that much of a difference? In both cases the default being inclusion though owners have the ability to opt-out (say in the case of the web via [robots.txt](https://en.wikipedia.org/wiki/Robots_exclusion_standard)). 
+
 This [*Wired* article](https://www.wired.com/2017/04/how-google-book-search-got-lost/) indicates that the project has decreased in size and that the scanning of books has slowed. 
 
 In any event, it raises the question in my mind if corporations may be stimulated, encouraged, or compelled to do certain things in certain ways. 
