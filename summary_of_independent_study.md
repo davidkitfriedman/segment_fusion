@@ -112,16 +112,9 @@ Another comment is that I was rather surprised at how many books in the mathemat
 
 [Mathematical analysis -- Textbooks at Online Books Page](http://onlinebooks.library.upenn.edu/webbin/book/browse?type=lcsubc&key=Mathematical%20analysis%20--%20Textbooks)
 
-
-And so these are some of the books that I downloaded.
+And so this is one of the books that I downloaded:
 
 * [*Real Analysis* by Brian S. Thomson, Judith B. Bruckner, Andrew M. Bruckner](http://classicalrealanalysis.info/index.php)
-* [*Principles Of Mathematical Analysis* by Walter Rudin](https://archive.org/details/RudinW.PrinciplesOfMathematicalAnalysis3eMGH19769780070542358353S)
-* [*Real and Complex Analysis* by Walter Rudin](https://archive.org/details/RudinW.RealAndComplexAnalysisMcGrawHillInternationalEdition3ndEd.19871Ed.1966Pp.428)
-
-Found it interesting to read this review on the AMA site concerning "baby Rudin" and how it arouses strong passions:
-
-[Review of Principles of Mathematical Analysis by Walter Rudin posted on the MAA site](https://www.maa.org/press/maa-reviews/principles-of-mathematical-analysis)
 
 There were also a variety of other textbooks that were available at no cost and without a university affiliation in different fields:
 
@@ -133,8 +126,6 @@ There were also a variety of other textbooks that were available at no cost and 
 * [*Artificial Intelligence: Foundations of Computational Agents* by  David Poole and Alan Mackworth](http://artint.info/)
 
 For most of these I just briefly went through looking and reading over various parts that referred to distance.
-
-Although I did spend a bit more time with *Principles Of Mathematical Analysis* seeking to do one proof. 
 
 I wondered if part of the reason that a wide variety of math analysis books are available at no cost to anybody with an Internet connection just has to do with the differences in how much money is involved in one field or another.
 
@@ -151,6 +142,17 @@ I was surprised that at N.C. State at the D. H. Hill Library I could use the com
 * *An Introduction to Statistical Learning with Applications in R* by Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani 
 
 It seems that the ones I could download were those published by Springer-Verlag. They also seemed to be available at fairly low cost (say \$30 or so) via Google Books. 
+
+I downloaded these from the Internet, and I thought they were legitimate copies; however, now I think that they are most likely not:
+
+* *Principles Of Mathematical Analysis* by Walter Rudin
+* *Real and Complex Analysis* by Walter Rudin
+
+And so I deleted the PDFs from my computer. 
+
+Nevertheless it was interesting to go through them a bit, and I also took a look at this review of "baby Rudin" on the MAA site and how it arouses strong passions:
+
+[Review of Principles of Mathematical Analysis by Walter Rudin posted on the MAA site](https://www.maa.org/press/maa-reviews/principles-of-mathematical-analysis)
 
 One can join Friends of NC State Library for a fee of I believe about \$150 (\$175 as of October 2017) and one can join friends of Carlyle Campbell Library for a fee of \$25. Discounts are available at Meredith College for students at another university. 
 
