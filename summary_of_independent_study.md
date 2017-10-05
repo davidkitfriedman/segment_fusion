@@ -71,7 +71,7 @@ Young children who are studying arithmetic would know that is takes longer and r
 
 Ascertaining the difficulty then of a problem could be seen as a skill in and of itself aside from the actual computation, answer and result. 
 
-In *The Man Who Lived Only Numbers* by Paul Hoffman an incident is related in which a mathematician by the name of [Michael Jacobson](https://en.wikipedia.org/wiki/Michael_Scott_Jacobson) asked Paul Erdős about a particular problem and Erdős said he should find something else to work on; that it was too difficult. In the book Johnson speaks about how Erdős's advice was altogether right insofar as years later the problem had still not been solved. 
+In *The Man Who Loved Only Numbers* by Paul Hoffman an incident is related in which a mathematician by the name of [Michael Jacobson](https://en.wikipedia.org/wiki/Michael_Scott_Jacobson) asked Paul Erdős about a particular problem and Erdős said he should find something else to work on; that it was too difficult. In the book Johnson speaks about how Erdős's advice was altogether right insofar as years later the problem had still not been solved. 
 
 Although [Gauss](https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss) was encouraged by his friend astronomer Heinrich Olbers to pursue Fermat's Last Theorem wherein a prize was offered by the French Academy of Sciences he declined to do so writing:
 
